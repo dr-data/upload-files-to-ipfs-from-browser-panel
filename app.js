@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
 	const err = new Error('Not Found')
 	err.status = 404
-	next(err)
+	//next(err)
 })
 
 // error handlers
