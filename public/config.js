@@ -3,7 +3,8 @@
 const projectId = '1zoY8fVddS0ZCzGf8xMiCYjqVxh'
 const projectSecret = '346542f39547fad839e255ba6e4c1e93'
 
-const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
+const auth =  projectId + ':' + projectSecret;
+
 
 
 const config = {
